@@ -26,7 +26,7 @@ def validate_html(html):
                 stack.pop()
             else:
                 return False
-    return(len(stack)) == 0
+    return (len(stack)) == 0
 
 
 def _extract_tags(html):
